@@ -13,15 +13,31 @@
 
       imports = [
         inputs.catppuccin.homeModules.catppuccin
+        # inputs.illogical-impulse.homeManagerModules.default
+        # inputs.illogical-impulse.homeManagerModules.audio
+        # inputs.illogical-impulse.homeManagerModules.backlight
+        # inputs.illogical-impulse.homeManagerModules.basic
+        # inputs.illogical-impulse.homeManagerModules.bibata-cursor
+        # inputs.illogical-impulse.homeManagerModules.fonts-themes
+        # inputs.illogical-impulse.homeManagerModules.hyprland
+        # inputs.illogical-impulse.homeManagerModules.kde
+        # inputs.illogical-impulse.homeManagerModules.microtex  
+        # inputs.illogical-impulse.homeManagerModules.oneui4-icons
+        # inputs.illogical-impulse.homeManagerModules.portal
+        # inputs.illogical-impulse.homeManagerModules.python
+        # inputs.illogical-impulse.homeManagerModules.screencapture
+        # inputs.illogical-impulse.homeManagerModules.toolkit
+        # inputs.illogical-impulse.homeManagerModules.widgets
         ./vscode.nix
         ./git.nix
         ./nushell.nix
         ./starship.nix
         ./kitty.nix
 	      ./lazyvim/lazyvim.nix
-        ./rofi.nix
-        ./waybar/waybar.nix
-        ./hypr/hypr.nix
+        # ./rofi.nix
+        # ./waybar/waybar.nix # Disabled - qs (quickshell) is used instead
+        # ./hypr/hypr.nix # Disabled - using hypr-custom.nix with dots-hyprland instead
+        # ./hypr-custom.nix # dots-hyprland customization examples (monitor config, keybindings, etc.)
         ./wlogout/wlogout.nix
       ];
 
